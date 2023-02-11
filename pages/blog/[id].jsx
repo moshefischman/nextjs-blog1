@@ -1,7 +1,7 @@
 import Layout from "../../components/Layout"
 
 export default function primerPost({data}) {
-  console.log("Individual data:", data);
+  //console.log("Individual data:", data);
   return (
     <Layout>
         <h1>{data.id} - {data.title}</h1>      
